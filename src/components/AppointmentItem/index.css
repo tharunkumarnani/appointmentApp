@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.appointment-details-cont {
+  width: 100%;
+  list-style-type: none;
+  border: 1px #b5b7c4 solid;
+  border-radius: 5px;
+  padding: 20px;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .appointment-details-cont {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.name-star-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appoint-name {
+  color: #171f46;
+  margin: 0;
+}
+.star-fav-btn {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+.date-style {
+  color: #b5b7c4;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 15px;
+}
